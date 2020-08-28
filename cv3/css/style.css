@@ -1,0 +1,137 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+p{
+  line-height: 2;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top:100px;
+}
+
+.middle-container{
+  margin: 100px 0;
+
+}
+
+a{
+  color: #11999E;
+  /*font-family: 'Montserrat', sans-serif;*/
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.copyright{
+  color: #EAF6F6;
+  font: 0.75rem;
+  padding: 20px 0;
+}
+.pro{
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.html-img{
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.flutter-img{
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-msg{
+  width:40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background-color:#33bdef;
+	border-radius:8px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.btn:hover {
+	background-color:#4fabcc;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
